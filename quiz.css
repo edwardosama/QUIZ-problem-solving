@@ -1,0 +1,136 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #ffffff;
+    background: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    width: 100%;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  header p {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+  
+  /* Quiz Container */
+  .quiz-container {
+    width: 60%;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .level-display h2 {
+    color: #00ff99;
+    font-size: 1.5rem;
+  }
+  
+  .progress-bar-container {
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #00ff99;
+    border-radius: 10px;
+    transition: width 0.5s;
+  }
+  
+  .timer-container {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #ffcc00;
+  }
+  
+  .question-container h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #ffffff;
+  }
+  
+  /* Options styling */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .options-container button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .options-container button:hover {
+    background-color: #00ff99;
+    transform: scale(1.05);
+  }
+  
+  .start-button-container {
+    margin-top: 20px;
+  }
+  
+  .start-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #00ff99;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .start-btn:hover {
+    background-color: #00cc88;
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+  
